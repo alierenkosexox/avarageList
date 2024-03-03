@@ -2,6 +2,7 @@
 // Ali Eren KÖSE 04/03/2024 01:45
 
 import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -14,6 +15,6 @@ public class Main {
             sum += list[i];
         }
         double average = list.length / sum;  //harmonik ortalama işlemini yap ve yazdır
-        System.out.println(average);
+        System.out.println("Harmonic ortalaması : " + average);
     }
 }
